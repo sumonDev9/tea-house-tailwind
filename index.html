@@ -24,13 +24,19 @@
           }
         }
       </script>
+      <style>
+        .font-manrope {
+           font-family: "Manrope", sans-serif;
+        }
+
+      </style>
 </head>
-<body>
+<body class="font-manrope">
     <!-- main content -->
      <main class="max-w-screen-xl mx-auto px-16 lg:px28">
 
         <!-- headar start-->
-        <header class="flex pt-10 mb-20">
+        <header class="md:flex pt-10 mb-20">
             <!-- text content -->
              <div>
                 <h1 class="text-5xl md:text-7xl text-[#1C1C1C]">It's good <br>tea time at The <br>Tea House</h1>  
@@ -55,6 +61,44 @@
                   </div>
               </div>
         </header>
+
+        <!-- Feature product section -->
+         <section class="py-8 lg:py-24">
+          <!-- title -->
+           <div class="text-center mb-8">
+            <h1 class="text-[#1C1C1C] text-5xl font-extrabold mb-7">Our Featured Products</h1>
+            <p class="max-w-4xl mx-auto text-[#777777] font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+           </div>
+           <!-- produtc card -->
+            <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
+              <!-- card 1 -->
+               <div class="bg-[#F4F4F4] rounded-lg py-7 px-7">
+                <img class="mx-auto mb-7" src="./images/tea-1.png" alt="">
+                <h2 class="text-2xl font-extrabold text-[#1C1C1C]">Milk Tea</h2>
+                <p class="mt-4 text-[#777777] font-semibold">Creamer could be <br>replaced by fresh milk</p>
+               </div>
+                 <!-- card 2 -->
+                 <div class="bg-[#F4F4F4] rounded-lg py-7 px-7">
+                  <img class="mx-auto mb-7" src="./images/tea-2.png" alt="">
+                  <h2 class="text-2xl font-extrabold text-[#1C1C1C]">Black Tea</h2>
+                  <p class="mt-4 text-[#777777] font-semibold">Creamer could be replaced by fresh milk</p>
+                 </div>
+                   <!-- card 3 -->
+               <div class="bg-[#F4F4F4] rounded-lg py-7 px-7">
+                <img class="mx-auto mb-7" src="./images/tea-3.png" alt="">
+                <h2 class="text-2xl font-extrabold text-[#1C1C1C]">Lemon Tea</h2>
+                <p class="mt-4 text-[#777777] font-semibold">Creamer could be <br>replaced by fresh milk</p>
+               </div>
+                 <!-- card 4 -->
+                 <div class="bg-[#F4F4F4] rounded-lg py-7 px-7">
+                  <img class="mx-auto mb-7" src="./images/tea-4.png" alt="">
+                  <h2 class="text-2xl font-extrabold text-[#1C1C1C]">Green Tea</h2>
+                  <p class="mt-4 text-[#777777] font-semibold">Creamer could be <br>replaced by fresh milk</p>
+                 </div>
+                </div>
+         </section>
+
+         <!--  -->
      </main>
 </body>
 </html>
